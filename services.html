@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>services</title>
+  <link rel="stylesheet" type="text/css" href="css/media.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css"> 
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css"> 
+</head>
+<body>
+  
+<!-- offcanvas-start -->
+<div class="offcanvas offcanvas-start bg-black" data-bs-scroll="true" id="offcanvas">
+  <div class="offcanvas-header">
+      <h1><a href="#"><img src="images/logo.png" alt=""></a></h1>
+      <button type="button" class="btn-close bg-danger" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+      <div>
+          <ul class="navbar-nav">
+              <li class="active"><a href="index.html" class="nav-link fs-5 text-white mx-2">Home</a></li>
+              <li><a href="about.html" class="nav-link fs-5 text-white mx-2">About</a></li>
+              <li><a href="Portfolio.html" class="nav-link fs-5 text-white mx-2">Portfolio</a></li>
+              <li><a href="services.html" class="nav-link fs-5 text-white mx-2">Services</a></li>
+              <li><a href="#" class="nav-link fs-5 text-white mx-2 dropdown" data-bs-toggle="dropdown">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                  <div class="dropdown">
+                      <ul class="dropdown-menu" style="margin-top:40px;">
+                          <li><a href="about.html"class="dropdown-item text-black">About</a></li><br>
+                          <li><a href="Portfolio.html"class="dropdown-item text-black">Portfolio</a></li><br>
+                          <li><a href="blog.html"class="dropdown-item text-black">Blog</a></li>
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="contact.html" class="nav-link fs-5 text-white mx-2">Contact</a></li>
+              <div class="header-social">
+                  <a href="#" class="mx-2"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" class="mx-2"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" class="mx-2"><i class="fa-brands fa-dribbble"></i></a>
+                  <a href="#" class="mx-2"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#" class="mx-2"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+          </ul>
+      </div>
+  </div>
+</div>  
+<!-- offcanvas-start -->
+
+<!-- modal-start -->
+<div class="modal fade" id="login">
+<div class="modal-dialog shadow">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="mx-auto">LOGIN FORM</h1>
+    <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal"></button>
+  </div>
+  <div class="modal-body">
+    <form class="fw-semibold">
+      <label class="form-label">Email</label>
+       <input class="form-control"  type="email" placeholder="Enter-Your-Email"><br>
+       <label class="form-label">Password</label>
+       <input class="form-control"  type="password" placeholder="Enter-Your-Password">
+    </form>
+  </div>
+  <div class="modal-footer mx-auto">
+    <button type="button" class="btn btn-primary d-grid mx-auto" data-bs-toggle="modal" data-bs-target="#first">LOGIN</button>
+  </div>
+ </div>
+</div>
+</div>
+<!-- modal-start -->
+
+<!-- Header-start -->
+<header class="navbar navbar-expand-xl bg-black bg-gradient" style="padding:40px 0 ;">
+  <div class="container">
+      <div class="logo me-4" >
+          <a href="#"><img src="images/logo.png" alt=""></a>
+      </div>
+      <div class="order-xl-1 text-end">
+          <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+          <i class="fa-solid fa-bars bg-light text-black rounded-2 px-3 py-2 "></i>
+          </button>
+          <a href="#" class="btn ms-4 text-white" style="background-color:#00bfe7 ;" data-bs-toggle="modal" data-bs-target="#login">LOGIN</a>  
+      </div>
+      <nav class="header-menu collapse navbar-collapse justify-content-end" id="abc" >
+          <ul class="navbar-nav">
+              <li class="active"><a href="index.html" class="nav-link text-white mx-2">Home</a></li>
+              <li><a href="about.html" class="nav-link text-white mx-2">About</a></li>
+              <li><a href="Portfolio.html" class="nav-link text-white mx-2">Portfolio</a></li>
+              <li><a href="services.html" class="nav-link text-white mx-2">Services</a></li>
+              <li><a href="#" class="nav-link text-white mx-2 dropdown" data-bs-toggle="dropdown">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                  <div class="dropdown">
+                      <ul class="dropdown-menu" style="margin-top:40px;">
+                          <li><a href="about.html"class="dropdown-item mx-2 text-black">About</a></li><br>
+                          <li><a href="Portfolio.html"class="dropdown-item mx-2 text-black">Portfolio</a></li><br>
+                          <li><a href="blog.html"class="dropdown-item mx-2 text-black">Blog</a></li>
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="contact.html" class="nav-link text-white mx-2">Contact</a></li>
+              <div class="header-social">
+                  <a href="#" class="mx-2"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#" class="mx-2"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#" class="mx-2"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+          </ul>
+      </nav>       
+  </div>
+</header>
+<!-- Header-End -->
+
+<!-- banner-start -->
+<section class="banner-contact">
+  <div class="container">
+    <div class="row text-center text-white text-uppercase position-absolute top-50 start-50 translate-middle">
+      <h1 style="font-weight: 700; font-size:44px;" class="wow shake" data-wow-delay=".3s">Our Sevices</h1>
+      <div class="">
+      <a href="index.html" class="text-white" style="text-decoration:none ;">home</a>
+      <span class="text-secondary mx-3">/</span>
+      <span class="text-secondary"> Services</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- banner-end -->
+
+<!-- about-start -->
+<section class="apad">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 wow fadeInLeft" data-wow-delay=".3s">
+            <div class="about-item ">
+              <div class="about-icon">
+                <img src="images/s1.png" alt="">
+              </div>
+              <h3 class="text-white my-4">Motion graphics</h3>
+              <p class="mb-5 pe-5">Whether you’re halfway through the editing process, or you haven’t even started, our
+              post production services can put the finishing touches.</p>
+            </div>
+          </div>
+          <div class="col-md-4 wow bounceInDown">
+            <div class="about-item">
+              <div class="about-icon">
+                <img src="images/s2.png" alt="">
+              </div>
+              <h3 class="text-white my-4">Motion graphics</h3>
+              <p class="mb-5 pe-5">Whether you’re halfway through the editing process, or you haven’t even started, our
+              post production services can put the finishing touches.</p>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInRight" data-wow-delay=".3s">
+            <div class="about-item ">
+              <div class="about-icon">
+                <img src="images/s3.png" alt="">
+              </div>
+              <h3 class="text-white my-4">Motion graphics</h3>
+              <p class="mb-5 pe-5">Whether you’re halfway through the editing process, or you haven’t even started, our
+              post production services can put the finishing touches.</p>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInLeft" data-wow-delay=".5s">
+            <div class="about-item ">
+              <div class="about-icon">
+                <img src="images/s4.png" alt="">
+              </div>
+              <h3 class="text-white my-4">Motion graphics</h3>
+              <p class="mb-5 pe-5">Whether you’re halfway through the editing process, or you haven’t even started, our
+              post production services can put the finishing touches.</p>
+            </div>
+          </div>
+          <div class="col-md-4 wow bounceInDown" data-wow-delay=".3s">
+            <div class="about-item">
+              <div class="about-icon">
+                <img src="images/s3.png" alt="">
+              </div>
+              <h3 class="text-white my-4">Motion graphics</h3>
+              <p class="mb-5 pe-5">Whether you’re halfway through the editing process, or you haven’t even started, our
+              post production services can put the finishing touches.</p>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInRight" data-wow-delay=".5s">
+            <div class="about-item ">
+              <div class="about-icon">
+                <img src="images/s2.png" alt="">
+              </div>
+              <h3 class="text-white my-4">Motion graphics</h3>
+              <p class="mb-5 pe-5">Whether you’re halfway through the editing process, or you haven’t even started, our
+              post production services can put the finishing touches.</p>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- about-start -->
+
+<!-- blog-start -->
+<section style="background-color: #100028; padding-bottom: 20px;">
+  <div class="container">
+    <div class="row">
+      <div style="background-image:url(./images/services/b1.jpg) ; background-size: cover; padding: 200px 0;"> 
+        <div class="text-center text-white">
+          <h1 class="fw-bold wow bounceInRight" data-wow-delay=".2s">CREATE AWESOME VIDEOS WITH WIDEO’S <br> POWERFUL FEATURES</h1>
+          <p class="my-4 pb-5 wow bounceInRight" data-wow-delay=".5s">WIDEO COMBINES ALL THE FEATURES YOU NEED TO EASILY CREATE PROFESSIONAL VIDEOS AND   PRESENTATIONS</p>
+          <a href="#" class="text-white text-uppercase fw-semibold wow bounceInRight" data-wow-delay=".6s" style="background-color: #00bfe7; letter-spacing:  2px; text-decoration: none; padding: 14px 32px 12px;">Start your stories</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- blog-end -->
+
+<!-- logo-start -->
+<section class="service-logo">
+  <div class="container">
+    <div class=" logo-main row">
+      <div class="col-lg-2 col-md-4 col-sm-6 my-3 wow bounceInLeft" data-wow-delay=".4s">
+        <a href="#"><img src="images/services/l1.png" style="margin-left: 70px;" alt=""></a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-3 wow bounceInLeft" data-wow-delay=".7s">
+        <a href="#"><img src="images/services/l2.png" style="margin-left: 70px; width: 102px;" alt=""></a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-3">
+        <a href="#"><img src="images/services/i3.png" style="margin-left: 70px;" alt=""></a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-3">
+        <a href="#"><img src="images/services/i4.png" style="margin-left: 70px;" alt=""></a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-3 wow bounceInRight" data-wow-delay=".4s">
+        <a href="#"><img src="images/services/i5.png" style="margin-left: 70px; width: 100px;" alt=""></a>
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 my-3 wow bounceInRight" data-wow-delay=".7s">
+        <a href="#"><img src="images/services/i6.png" style="margin-left: 70px;" alt=""></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- logo-end -->
+
+<!-- Footer-start -->
+<footer style="background-color:#0a0119 ;">
+  <div class="container">
+      <div class="footer">
+          <div class="row">
+              <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+                  <div class="lh-lg">
+                      <a href="#"><img src="images/logo.png" alt=""></a>
+                  </div>
+              </div>
+              <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
+                  <div class="footer-social text-end">
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                      <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-main">
+          <div class="row">
+              <div class="col-lg-4 col-sm-6 wow fadeInLeft" data-wow-delay=".4s">
+                  <div class="mb-5">
+                      <h5 class="text-white mb-5 fw-bold">About us</h5>
+                      <p class="mb-4 fw-semibold">Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning, full-service<br>
+                          production company specializing.</p>
+                      <a href="#" class="primary-btn">Read more</a>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-sm-3 wow bounceInUp">
+                  <div class="footer-item">
+                      <h5 class="text-white mb-4 fw-bold">Who we are</h5>
+                      <ul style="list-style:none;">
+                          <li><a href="#">Team</a></li>
+                          <li><a href="#">Carrers</a></li>
+                          <li><a href="#">Contact us</a></li>
+                          <li><a href="#">Locations</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-sm-3 wow bounceInUp">
+                  <div class="footer-item" >
+                      <h5 class="text-white mb-4 fw-bold">Our work</h5>
+                      <ul style="list-style:none ;">
+                          <li><a href="#">Feature</a></li>
+                          <li><a href="#">Latest</a></li>
+                          <li><a href="#">Browse Archive</a></li>
+                          <li><a href="#">Video for web</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".4s">
+                  <div class="footer-item ">
+                      <h5 class="text-white mb-5 fw-bold">Newsletter</h5>
+                      <p class="mb-4">Videoprah is an award-winning, full-service production company specializing.</p>
+                      <form action="#">
+                          <input type="email" placeholder="Email">
+                          <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-copyright">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <p>Copyright © 2022 All rights reserved | This template is made with <span style="color:#00bfe7 ;"><i class="fa-regular fa-heart"></i></span> by <a href="#" style="text-decoration:none ; color:#00bfe7">Colorlib</a> </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- Footer-End -->
+
+<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
